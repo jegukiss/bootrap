@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+  background-color:rgba(60, 4, 4, 1);
+}
+
+p{
+  font-family: 'Titillium Web', sans-serif;
+
+  text-align: justify;
+}
+.container{
+  width: 90%;
+}
+
+
+h2{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+
+.img-rounded{
+  text-align: center;
+  width: 180px;
+  height: 180px;
+
+}
+
+/*menu*/
+.nav nav-tabs{
+  width: 100%;
+  position: fixed;
+
+}
+
+
+.tpricipal{
+  width: 100%;
+  text-align: center;
+}
+
+.novedades h1{
+   font-family: sans-serif;
+   color: black;
+   font-size: 25px;
+   font-weight: bold;
+   text-align: center;
+}
+
+#jumb .jumbotron{
+  width:100%;
+  background-color: rgba(120, 124, 155, 0.9);
+  color: white;
+
+}
+
+.jumbotron h1{
+  text-align: center;
+}
+
+#novedades .row{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.row{
+  width: 100%;
+  margin: 0 auto;
+  background-color: whitesmoke;
+  border-radius: 3px;
+}
+
+
+.row col-xs-12 col-sm-4{
+  margin: 331px;
+
+}
+/*metal*/
+
+#metal .row{
+  width: 100%;
+  background-color: #fff;
+  margin-top: 20px;
+
+}
+
+#metal .tpricipal{
+  color: black;
+
+}
+
+#metal  .row {
+  background-color: #ccc;
+
+}
+
+/*rock*/
+
+#rock .row{
+  width: 100%;
+  background-color: #4b7984;
+  margin-top: 20px;
+  color: white;
+
+}
+
+#rock .tpricipal{
+  color: white;
+
+}
+
+/*jazz*/
+
+#jazz .row{
+  width: 100%;
+  background-color: #531c56;
+  margin-top: 20px;
+  color: white;
+
+}
+
+#jazz .tpricipal{
+  color: white;
+
+}
+
+/*contacto*/
+
+#contacto{
+  width: 100%;
+  background-color: whitesmoke;
+  padding: 2px;
+  margin: 5px;
+  border-radius: 3px;
+}
+
+
+/*footer*/
+
+footer{
+  width: 100%;
+  height: 50px;
+  padding: 5px;
+  color: white;
+  font-weight: bold;
+  background-color: rgba(60, 4, 4, 1);
+}
